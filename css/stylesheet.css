@@ -53,7 +53,8 @@ html{
     text-align: center;
     cursor: pointer;
     background-color: white;
-    border: 1px solid gray;  
+    border: 1px solid gray; 
+    border-radius: 50px; 
 }
 
 .keypad-button:hover{
