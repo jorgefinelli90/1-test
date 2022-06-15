@@ -1,8 +1,20 @@
-let calificacionUno = prompt("Ingrese su primer calificacion")
-let calificacionDos = prompt("Ingrese su segunda calificacion")
+let entrada = prompt("Ingresar un nombre:");
 
-if(calificacionUno >=6 || calificacionDos){
-    alert("Aprobado!")
-}else{
-    alert("Reprobado!")
+//Repetimos hasta que se ingresa "ESC"
+while(entrada != "ESC" ){
+   switch (entrada) {
+       case "ANA":
+            alert("HOLA ANA");
+            break;
+        case "JUAN":
+            alert("HOLA JUAN");
+            break;
+       default:
+           alert("¿HOLA, QUIÉN SOS?")
+           break;
+   }
+   entrada = prompt("Ingresar un nombre");
+   
 }
+
+alert(entrada)
