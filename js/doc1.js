@@ -15,3 +15,5 @@ let lamor = prompt(nombre + apellido + "queres hacer lamor conmigo")
 
 alert("gracias " + nombre + " por contestar afirmativamente, adios")
 
+
+
